@@ -5,7 +5,7 @@ app.use(express.json());
 
 port = process.env.PORT || 3000;
 
-app.post('process-array', (req, res) => {   
+app.post('/process-array', (req, res) => {   
     try {
         const { data } = req.body;
     
